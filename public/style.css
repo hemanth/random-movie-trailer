@@ -10,6 +10,11 @@ h1 {
     text-shadow: 1px 2px 3px #666;
     color: white;
     font-family: fantasy;
+    max-width: 100%;
+    font-size: 3.9vw;
+}
+iframe, object, embed {
+    max-width: 100%;
 }
 #youtube-video {
     display: block;
@@ -28,4 +33,7 @@ h1 {
     font-weight: bolder;
     font-size: 18px;
     cursor: pointer;
+}
+@media only screen and (max-width: 320px) {
+   body { font-size: 2em; }
 }
